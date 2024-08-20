@@ -1,14 +1,16 @@
 import Button from "./Components/Button/Button";
 
+import TextInputFormContainer from "./Components/TextInputForm/TextInputFormContainer";
+
+
 function App(){
   return (
   <>
-  <h1>Hello! Everyone</h1>
-  <Button
-  text = "submit"
-  styleType = "primary"
-  buttonType = "button"
+  <h1>Welcome!!! to HangMan Game.......</h1>
+  <TextInputFormContainer
+  
   />
+  
   </>
 
 );
